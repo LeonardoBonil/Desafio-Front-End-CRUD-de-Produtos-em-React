@@ -1,11 +1,12 @@
 # Desafio-Front-End-CRUD-de-Produtos-em-React
 Um desafio front end.
 
-29/05/2025 - Estrutura Inicial (esboço) do Projeto com os conceitos básicos sendo criados e com um método para testar a funcionalidade do Projeto  
-30/05/2025 a adição de vários dos elementos opicionais e não opicionais requisitados no arquivo de desafio.  
-
+29/05/2025 - Primeira Modificação, Estrutura Inicial (esboço) do Projeto com os conceitos básicos sendo criados e com um método para testar a funcionalidade do Projeto  
+30/05/2025 - Segunda Modificação, adição de vários dos elementos opicionais e não opicionais requisitados no arquivo de desafio.
+30/05/2025 - Planejamento Terceira Modificação - Estudo do código para otimização e acertos dos items 4, 5 e 6 da documentação do Desafio Web React. Estruturação completa do README para melhor entendimento do projeto e estudo da linguagem Dart para implementação do Projeto em Flutter.  
+  
 Título & Descrição  
-
+  
 Titulo: Desafio-Front-End-CRUD-de-Produtos-em-React  
 Descrição: Um desafio Front-End que tem como objetivo construir uma aplicação em React sem consumo de API externa. Os dados residem apenas no front-end (memória e/ou localStorage). A aplicação deve permitir Criar, Listar (paginado), Atualizar e Remover produtos.  
   
@@ -100,7 +101,9 @@ Padrões de Código & Commits
 Commits foram realizados nos dias 29/05/2025 e 30/05/2025 para atualizar o projeto e também para atualizar o README, para melhor entendimento do projeto.
   
 Funcionalidades Futuras / Bônus  
-
+  
+implementação da demo tentativa de Deploy em Vercel/Netlify para demonstração rápida e dos códigos de inicialização automática para ficar mais simples de fazer modificações no projeto.  
+  
 Licença  
   
 Unlicense, pois é uma das licenças mais simples e sem muita burocracia.
