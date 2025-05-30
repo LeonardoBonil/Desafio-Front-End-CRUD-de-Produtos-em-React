@@ -100,10 +100,10 @@ Os dados podem ser excluidos e possui modal para confirmação de exclusão de c
 
 Commits foram realizados nos dias 29/05/2025 e 30/05/2025 para atualizar o projeto e também para atualizar o README, para melhor entendimento do projeto.
   
-##Funcionalidades Futuras / Bônus##  
+**Funcionalidades Futuras / Bônus**  
   
 implementação da demo tentativa de Deploy em Vercel/Netlify para demonstração rápida, criação dos códigos de inicialização automática para ficar mais fácil de fazer modificações no projeto.  
   
-##Licença##  
+**Licença**  
   
 Unlicense, pois é uma das licenças mais simples e sem muita burocracia.
