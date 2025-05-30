@@ -1,13 +1,22 @@
-
 import { mockProducts } from '../mocks/products';
+import imagem1 from '../assets/imagem1.png';
+import imagem2 from '../assets/imagem2.png';
+import imagem3 from '../assets/imagem3.png';
+import imagem4 from '../assets/imagem4.png';
 
 const STORAGE_KEY = 'products';
+const defaultImages = [imagem1, imagem2, imagem3, imagem4];
 
 // Inicializa o localStorage com os produtos mock se ainda não existirem
 const initializeProducts = () => {
     const existingProducts = localStorage.getItem(STORAGE_KEY);
     if (!existingProducts) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(mockProducts));
+        // Modifica os produtos mock para usar imagens fixas
+        const productsWithFixedImages = mockProducts.map((product, index) => ({
+            ...product,
+            imageUrl: defaultImages[index % defaultImages.length]
+        }));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(productsWithFixedImages));
     }
 };
 

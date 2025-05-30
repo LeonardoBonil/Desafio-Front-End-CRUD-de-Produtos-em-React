@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Paper, Box } from '@mui/material';
-import ProductList from '../../components/ProductList/ProductList';
+import ProductList from '../../components/products/ProductList';
 
 const Products = () => {
     return (
