@@ -102,7 +102,7 @@ Commits foram realizados nos dias 29/05/2025 e 30/05/2025 para atualizar o proje
   
 Funcionalidades Futuras / Bônus  
   
-implementação da demo tentativa de Deploy em Vercel/Netlify para demonstração rápida e dos códigos de inicialização automática para ficar mais simples de fazer modificações no projeto.  
+implementação da demo tentativa de Deploy em Vercel/Netlify para demonstração rápida, criação dos códigos de inicialização automática para ficar mais fácil de fazer modificações no projeto.  
   
 Licença  
   
