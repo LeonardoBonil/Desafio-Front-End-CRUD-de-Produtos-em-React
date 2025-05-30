@@ -96,7 +96,7 @@ Exibição de Alertas: Em caso de falha nas validações, erros durante a adiç�
  
 Os dados podem ser excluidos e possui modal para confirmação de exclusão de cada um dos dados(produtos).  
   
-##Padrões de Código & Commits##  
+**Padrões de Código & Commits**  
 
 Commits foram realizados nos dias 29/05/2025 e 30/05/2025 para atualizar o projeto e também para atualizar o README, para melhor entendimento do projeto.
   
