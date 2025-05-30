@@ -5,12 +5,12 @@ Um desafio front end.
 30/05/2025 - Segunda Modificação, adição de vários dos elementos opicionais e não opicionais requisitados no arquivo de desafio.
 30/05/2025 - Planejamento Terceira Modificação - Estudo do código para otimização e acertos dos items 4, 5 e 6 da documentação do Desafio Web React. Estruturação completa do README para melhor entendimento do projeto e estudo da linguagem Dart para implementação do Projeto em Flutter.  
   
-##Título & Descrição##  
+**Título & Descrição**  
   
 Titulo: Desafio-Front-End-CRUD-de-Produtos-em-React  
 Descrição: Um desafio Front-End que tem como objetivo construir uma aplicação em React sem consumo de API externa. Os dados residem apenas no front-end (memória e/ou localStorage). A aplicação deve permitir Criar, Listar (paginado), Atualizar e Remover produtos.  
   
-##Stack e Pré-requisitos##  
+**Stack e Pré-requisitos**  
 
 React: Uma biblioteca JavaScript para construir interfaces de usuário, que você está usando para criar componentes como ProductForm, ProductCard.
 Material-UI: Uma biblioteca de componentes React que fornece uma implementação de design de interface do usuário o projeto está utilizando componentes do MUI para estilização e layout.  
@@ -24,23 +24,23 @@ RAM: 4 GB de RAM;
 Internet: É necessária uma conexão com a internet durante a configuração inicial do aplicativo;  
 Armazenamento: 1GB é suficiente.  
   
-##Instalação (passo a passo)##  
+**Instalação (passo a passo)**  
 
 A instalação da IDE Webstormn é simples e os passos estão na pagina JetBrains.  
 Em relação a instalação dos plugins e dependencias, você precisa ir em terminal e usar o comando npm install, para que todas as configurações do projeto sejam instaladas corretamente.  
   
-##Scripts (start, seed, build)##  
+**Scripts (start, seed, build)**  
   
 Para começar o projeto no momento é só usar no terminal shell: npm start.
 
-##Uso (fluxos CRUD, atalhos)##  
+**Uso (fluxos CRUD, atalhos)**  
 
 Create (Criar): Funções ou telas para adicionar novos itens (ex: addProduct, formulário de cadastro).
 Read (Ler): Funções ou telas que listam ou exibem detalhes dos itens (ex: getAllProducts, listagem de produtos).
 Update (Atualizar): Funções ou telas para editar itens existentes (ex: updateProduct, formulário de edição).
 Delete (Excluir): Funções ou botões para remover itens (ex: deleteProduct).  
   
-##Estrutura de Pastas##  
+**Estrutura de Pastas**  
 
 Está é a representação visual da estrutura de pastas e componentes mais importantes do projeto durante a sua criação e modificação.  
   
@@ -74,7 +74,7 @@ produtos-app
 ├── index.js  
 └── reportWebVitals.js  
   
-##Arquitetura & Gerenciamento de Estado##  
+**Arquitetura & Gerenciamento de Estado**  
   
 Em relação a arquitetura do projeto, este projeto utiliza:  
 Componentização: O código é altamente componentizado, o que é comum no React. Cada parte da interface do usuário é representada por um componente separado, como o ProductForm, Dialog, TextField, Button, etc.  
@@ -83,7 +83,7 @@ Feedback de Carregamento e Erro: O componente ProductList.jsx fornece feedback v
 Contexto de Produtos: O contexto ProductContext foi criado para fornecer um estado compartilhado entre componentes relacionados aos produtos. Ele encapsula o estado e as funções relacionadas aos produtos, permitindo que os componentes acessem e modifiquem esses dados.  
 Inicialização de Dados e Persistência de Dados LocalStorage: São fornecidas funções para inicializar os dados de produtos, salvar no LocalStorage, e carregar do LocalStorage. Isso garante que os dados dos produtos persistam mesmo após recarregar a página.
     
-##Validações & Acessibilidade##  
+**Validações & Acessibilidade**  
   
 Adição de atributos aria-* para melhorar a acessibilidade de componentes interativos, a garantia de um contraste adequado para usuários com deficiência visual, ou o uso de etiquetas semânticas para melhorar a navegação.  
 Verificação de Campos Obrigatórios: Antes de adicionar um produto, o código verifica se campos obrigatórios, como nome, preço, estoque e categoria, estão preenchidos corretamente. Caso contrário, exibe alertas informando que esses campos são obrigatórios.  
@@ -92,7 +92,7 @@ Validação de Categoria: Uma validação foi adicionada para garantir que a cat
 Manipulação de Erros:  
 Exibição de Alertas: Em caso de falha nas validações, erros durante a adição do produto ou problemas no processo, são exibidos alertas ao usuário informando sobre o ocorrido. Tratamento de Exceções: O código trata exceções durante a adição de produtos, garantindo que o usuário seja informado sobre possíveis erros e problemas que ocorreram durante o processo.
 
-##Reset de Dados##  
+**Reset de Dados**  
  
 Os dados podem ser excluidos e possui modal para confirmação de exclusão de cada um dos dados(produtos).  
   
